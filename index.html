@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.0/css/bootstrap.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg bg-light">
+            <a class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
+                aria-controls="offcanvasExample">
+                <i class="fas fa-bars"></i>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">Disabled</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasExampleLabel">Bootstrap 5</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">Disabled</a>
+                    </li>
+                </ul>
+                <div class="dropdown mt-3">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                        Dropdown button
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </div>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non et repudiandae architecto accusantium temporibus dicta necessitatibus provident harum voluptatibus quos debitis facere neque, aperiam magnam reiciendis magni at! Deserunt, reprehenderit in recusandae odio minus asperiores dicta eius. Deserunt error pariatur amet voluptas dicta, dolor temporibus culpa assumenda quia, fugiat excepturi? Incidunt vitae voluptas beatae unde! Tenetur alias ab ipsum beatae, quam saepe officia obcaecati odio, at natus nostrum vel aliquid! Autem sed vel in porro optio esse aspernatur quae veniam sit consequatur aliquid laudantium illum repellendus vero vitae repudiandae impedit, quia aut, dolorem ipsum quis obcaecati ut accusantium. Suscipit, nesciunt?
+                </p>
+            </div>
+        </div>
+        <div class="header d-flex justify-content-center align-items-center">
+            <div id="carousel" class="carousel slide col-xxl-5 col-xl-5 col-lg-8 col-md-8" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <!-- <img src="./1.jpg" class="d-block rounded rounded-4" alt="images"> -->
+                        <div class="card">
+                            <div class="card-header">
+                                <img src="./1.jpg" alt="error" class="card-img-top">
+                            </div>
+                            <div class="card-body">
+                                <h3 class="card-title">
+                                    Hello World
+                                </h3>
+                                <p class="card text h5">
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga ex repellat earum ipsam quasi non voluptate obcaecati blanditiis odio, et, quam explicabo sint voluptates omnis. Vitae maiores non itaque laborum.
+                                </p>
+                            </div>
+                            <div class="card-footer">
+                                <i class="fab fa-instagram"></i>
+                                <i class="fab-fa-telegram"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <!-- <img src="./2.jpg" class="d-block rounded rounded-4" alt="images"> -->
+                        <div class="card">
+                            <div class="card-header">
+                                <img src="./2.jpg" alt="error" class="card-img-top">
+                            </div>
+                            <div class="card-body">
+                                <h3 class="card-title">
+                                    Hello World
+                                </h3>
+                                <p class="card text h5">
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga ex repellat earum ipsam quasi non voluptate obcaecati blanditiis odio, et, quam explicabo sint voluptates omnis. Vitae maiores non itaque laborum.
+                                </p>
+                            </div>
+                            <div class="card-footer">
+                                <i class="fab fa-instagram"></i>
+                                <i class="fab-fa-telegram"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <!-- <img src="./3.jpg" class="d-block rounded rounded-4" alt="images"> -->
+                        <div class="card">
+                            <div class="card-header">
+                                <img src="./3.jpg" alt="error" class="card-img-top">
+                            </div>
+                            <div class="card-body">
+                                <h3 class="card-title placeholder-glow">
+                                    <span class="placeholder">Hello World</span>
+                                </h3>
+                                <p class="card text h5 placeholder-glow">
+                                    <span class="placeholder">
+                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga ex repellat earum ipsam quasi non voluptate obcaecati
+                                        blanditiis odio, et, quam explicabo sint voluptates omnis. Vitae maiores non itaque laborum.
+                                    </span>
+                                </p>
+                            </div>
+                            <div class="card-footer">
+                                <i class="fab fa-instagram"></i>
+                                <i class="fab-fa-telegram"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <p class="placeholder-glow">
+            <span class="placeholder">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ipsum ab ratione quaerat harum, modi doloremque unde inventore animi illo repellendus voluptate deleniti, soluta libero delectus cumque pariatur! Corporis, iure.
+            </span>
+        </p>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
